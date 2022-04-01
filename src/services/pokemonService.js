@@ -74,6 +74,7 @@ export class PokemonService {
             let id = substrings[substrings.length - 2];
 
             p.id = id;
+            p.sprite = 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/'+p.id+'.png'
 
             pokemons.push(p);
           });
