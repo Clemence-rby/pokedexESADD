@@ -172,7 +172,7 @@ h3 {
 #selectionAttaque {
   color: white;
   width: 35%;
-  background-color: #06021A;
+  background-color: #06021a;
   border: none;
   height: 4vh;
   border-radius: 0.2vw;
@@ -183,7 +183,7 @@ h3 {
 }
 
 #selectionAttaque:hover {
-  background-color: rgb(0, 132, 255);
+  background-color: #0d0535;
   transition: 0.8s;
   border: none;
 }

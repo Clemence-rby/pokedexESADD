@@ -1,15 +1,24 @@
 <template>
-  <div class="conteneur">
+  <div class="general">
+      <h1>Pokedex</h1>
+      <div class="conteneur">
     <div v-for="(p, index) in pokemons" v-bind:key="index">
       <router-link id="pokemon" v-bind:to="'/pokemons/' + p.id">
         <img class="sprite" v-bind:src="p.sprite" alt="" />
       </router-link>
     </div>
   </div>
+  </div>
 </template>
 
 <!-- Vise juste les élément de la page plutôt que toutes les pages -->
 <style scoped>
+
+h1 {
+    font-size: 4vw;
+    margin-top: 0;
+    margin-bottom: 3vh;
+}
 
 .conteneur {
   display: flex;

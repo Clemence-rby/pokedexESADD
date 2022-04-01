@@ -66,7 +66,7 @@ export class PokemonService {
       let pokemons = [];
 
       axios
-        .get("https://pokeapi.co/api/v2/pokemon?limit=100")
+        .get("https://pokeapi.co/api/v2/pokemon?limit=500")
         .then((response) => {
           let result = response.data.results;
           result.forEach((p) => {
